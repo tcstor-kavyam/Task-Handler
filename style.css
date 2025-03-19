@@ -119,3 +119,15 @@
   display: flex;
   flex-direction: row;
 }
+.Ocean{
+  background-color: #017b92;
+}
+.Night{
+  background-color: #280137;
+}
+.Dark{
+background-color: #000435 ;
+}
+.Monokai{
+ background-color:#ADD8E6 ; 
+}
