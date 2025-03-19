@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="style.css">
+<script src="./script.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <img src="logo.png" alt="">
+    </div>
+    <div class="themeChanger">
+      <div class="selectThemeTitle">
+          Select Theme:            
+        <p style= "margin-right: 1rem; ">
+            x
+        </p>
+          
+      </div>
+        <div class="themesContainer">
+            Ocean
+            <input type= "checkbox" >
+            <p class="theme">
+                Night &emsp; <input type= "checkbox">
+            </p>
+            <p class="theme">
+                2017 Dark &emsp; <input type= "checkbox">
+            </p>
+            <p class="theme">
+                Monokai &emsp; <input type= "checkbox">
+            </p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="options">
+            <h1>
+                Options
+            </h1>
+            <div class="chip" onclick="newSubject()">
+                New Subject
+                
+            </div>
+            <div class="chip" onclick="showOrHide()">
+                Change Theme
+            </div>
+            
+        </div>
+        <div class="main" id="box">
+            Lorem ipsum dolor sit ametjdhrvgskbH ishkrhosuhuejiuehbuzhyughnosieuthiwughuihbhyibyndm
+            <div class="subject" >
+                <div>
+                  <input type="text" class="subTitle">
+                <button class="newnote" onclick="newNoter(this)">
+                <img src="logo.png" id="imgnote">
+                </button>
+                
+                </div>
+               
+                <input type="text" class="notes">
+                <input type="text" class="notes">
+                    
+            </div>
+            <div class="subject" >
+                <input type="text" class="subTitle">
+                <input type="text" class="notes">
+                <input type="text" class="notes">
+            </div>
+            <div class="subject" >
+                <input type="text" class="subTitle">
+                <input type="text" class="notes">
+                <input type="text" class="notes">
+            </div>
+           
+        </div>
+    </div>
+</body>
+
+</html>
